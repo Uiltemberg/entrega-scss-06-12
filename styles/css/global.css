@@ -1,0 +1,180 @@
+/*desktop*/
+@media screen and (min-width: 577px) {
+  * {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    header .container-fluid {
+      padding: 0%; }
+      header .container-fluid .gradient {
+        animation: gradient ease 5s infinite;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(-45deg, #a0b104, #d47853, #d8ac4e, #f3cb18) no-repeat;
+        background-size: 300% 300%; }
+  @keyframes gradient {
+    0% {
+      background-position: 0 50%; }
+    50% {
+      background-position: 100% 50%; }
+    100% {
+      background-position: 0 50%; } }
+    header .logo {
+      height: 200px;
+      width: 200px;
+      border-radius: 40px;
+      margin: 5%; }
+  .menu-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #f79a02; }
+    .menu-navbar .menu {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 50px;
+      color: white;
+      margin: 20px 0 20px;
+      cursor: pointer; }
+    .menu-navbar a:hover {
+      color: black; }
+  h1 {
+    font-weight: 600;
+    font-size: 110px;
+    text-align: center;
+    margin: 90px;
+    color: #6a0f55;
+    margin: 10% 0 10%; }
+  button {
+    font-weight: 600;
+    font-size: 13px;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background: #f79a02;
+    border: 4px solid #d18112;
+    color: #070707;
+    cursor: pointer; }
+  .btn-warning:hover {
+    border-radius: 10px;
+    border: 5px solid #7e4b05;
+    background-color: #d47853; }
+  .ul-cardapio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    list-style: none; }
+    .ul-cardapio .li-cardapio {
+      width: 350px;
+      text-align: center;
+      padding: 1rem; }
+      .ul-cardapio .li-cardapio .img-cardapio {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        margin: 1rem; }
+  .rodape {
+    background: #f79a02;
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 30px; } }
+
+/*smartfone*/
+@media screen and (max-width: 577px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    header .container-fluid {
+      padding: 0%; }
+      header .container-fluid .gradient {
+        animation: gradient ease 5s infinite;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(-45deg, #a0b104, #d47853, #d8ac4e, #f3cb18) no-repeat;
+        background-size: 300% 300%; }
+  @keyframes gradient {
+    0% {
+      background-position: 0 50%; }
+    50% {
+      background-position: 100% 50%; }
+    100% {
+      background-position: 0 50%; } }
+    header .logo {
+      height: 150px;
+      width: 150px;
+      border-radius: 40px;
+      margin: 5%; }
+  .menu-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #f79a02; }
+    .menu-navbar .menu {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 50px;
+      color: white;
+      margin: 20px 0 20px;
+      cursor: pointer; }
+    .menu-navbar a:hover {
+      color: black; }
+  h1 {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    margin: 90px;
+    color: #6a0f55;
+    margin: 10% 0 10%; }
+  button {
+    font-weight: 600;
+    font-size: 13px;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background: #f79a02;
+    border: 4px solid #d18112;
+    color: #070707;
+    cursor: pointer; }
+  .btn-warning:hover {
+    border-radius: 10px;
+    border: 5px solid #7e4b05;
+    background-color: #d47853; }
+  .ul-cardapio {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    list-style: none; }
+    .ul-cardapio .li-cardapio {
+      width: 350px;
+      text-align: center;
+      padding: 1rem; }
+      .ul-cardapio .li-cardapio .img-cardapio {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        margin: 1rem; }
+  .rodape {
+    background: #f79a02;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 30px; } }
