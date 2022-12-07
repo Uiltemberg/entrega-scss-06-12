@@ -1,5 +1,5 @@
 /*desktop*/
-@media screen and (min-width: 577px) {  
+@media screen and (min-width: 578px) {  
 
   * {
     font-family: "Montserrat", sans-serif;
@@ -18,7 +18,7 @@
       padding: 0%;
 
       .gradient{
-        animation: gradient ease 5s infinite;
+        animation: gradient ease 6s infinite;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -38,8 +38,7 @@
           background-position: 0 50%;
         }
       }
-    }  
-    
+    }      
     .logo {
       height: 200px;
       width: 200px;
@@ -130,7 +129,7 @@
   }
 }
 /*smartfone*/
-@media screen and (max-width: 577px) { 
+@media screen and (max-width: 578px) { 
     
   header {
     display: flex;
@@ -142,7 +141,7 @@
       padding: 0%;
     
       .gradient{
-        animation: gradient ease 5s infinite;
+        animation: gradient ease 6s infinite;
         width: 100%;
         display: flex;
         justify-content: center;
